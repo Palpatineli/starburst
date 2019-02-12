@@ -21,7 +21,7 @@ setup(
     license='GPLv3',
     author='Keji Li',
     author_email='mail@keji.li',
-    install_requires=["opencv_python>=3.0", "numpy", "scipy", "tiffreader"],
+    install_requires=["opencv_python>=3.0", "numpy", "scipy", "tiffreader", "tqdm", "uifunc"],
     tests_require=["pytest"],
     entry_points={
         "gui_scripts": ['starburst=starburst.main:main']
